@@ -1,0 +1,521 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+
+// Body Styles 
+body,
+html, 
+.body {
+  background: #f3f3f3 !important;
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+.container.header {
+  background: #f3f3f3;
+}
+
+.body-drip {
+  border-top: 8px solid #663399;
+}
+
+// Full Width Headers
+.header {
+  background: #8a8a8a;
+}
+
+.header .columns {
+  padding-bottom: 0;
+}
+
+.header p {
+  color: #fff;
+  padding-top: 15px;
+}
+
+.header .wrapper-inner {
+  padding: 20px;
+}
+
+.header .container {
+  background: transparent;
+}
+
+// Social Media
+table.button.facebook table td {
+  background: #3B5998 !important;
+  border-color: #3B5998;
+}
+
+table.button.twitter table td {
+  background: #1daced !important;
+  border-color: #1daced;
+}
+
+table.button.google table td {
+  background: #DB4A39 !important;
+  border-color: #DB4A39;
+}
+
+.wrapper.secondary {
+  background: #f3f3f3;
+}
+
+$bgRed: #86181B;
+$colorRed: #86181B;
+$textColor: #333333;
+$textWhite: #ffffff;
+
+a,
+p,
+strong,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #333333;
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+hr{
+  padding: 0 !important;
+}
+
+.mt-10{
+  margin-top: 10px !important;
+}
+
+.mb-10{
+  margin-bottom: 10px !important;
+}
+
+.pt-10{
+  padding-top: 10px !important;
+}
+
+.pb-10{
+  padding-bottom: 10px !important;
+}
+
+.text-center{
+  text-align: center !important;
+}
+
+.bg-white {
+  background: #ffffff !important;
+}
+.bg-grey {
+  background: #f6f6f6 !important;
+}
+
+.d-block {
+  display: block;
+  font-family: 'Open Sans', sans-serif !important;
+  text-align: center !important;
+}
+
+.inner-category{
+  @media(max-width: 420px){
+    margin: 0 30px !important;
+  }
+}
+
+table.menu th.menu-item {
+  padding: 10px 5px 10px 5px !important;
+}
+
+table.menu th.menu-item a {
+  font-size: 14px;
+  font-weight: 700;
+  color: $textColor;
+  line-height: 24px;
+  letter-spacing: 1px;
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+table.row.banner-image tbody tr th {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+table.button.sale-btn table tr td {
+  padding: 5px 20px;
+  background: #86181B;
+}
+
+table.button.sale-btn table tr td a{
+  font-size: 16px;
+}
+
+table.button.shop-btn table tr td {
+  padding: 7px 14px;
+  background: #86181B;
+  color: #ffffff;
+  border-radius: 3px;
+  border: none;
+}
+
+table.button.shop-btn table tr td a {
+  font-size: 11px;
+}
+
+table.button.special-sale-btn table tr td {
+  color: $textWhite;
+  background: $bgRed;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 7px 15px;
+  border-radius: 4px;
+  border: none;
+}
+
+table.button.special-sale-btn table tr td{
+  font-size: 11px;
+}
+
+table.callout {
+  margin-bottom: 0 !important;
+}
+
+table.callout th.callout-inner.image {
+  width: 100%;
+  border: 2px solid #2f3439;
+  background: #E4E7EC;
+}
+
+table.body table.container .show-for-small,
+table.body table.container .row.show-for-small {
+  display: none;
+  @media only screen and (max-width: 596px) {
+    display: table !important;
+    width: 100% !important;
+  }
+}
+
+
+
+
+.container{
+
+  .hr-sec {
+    padding: 0 60px !important;
+    @media(max-width: 420px){
+      padding: 0 10px !important;
+    }
+  }
+
+  .section-1{
+    .inner-content{
+      border-style: dotted;
+      color: $bgRed;
+      margin: 0 20px;
+      @media(max-width: 420px){
+        margin-top: 20px !important;
+      }
+      .percent{
+        font-size: 60px;
+        color: #887676;
+        @media(max-width: 420px){
+          font-size: 45px !important;
+        }
+        @media(max-width: 384px){
+          font-size: 40px !important;
+        }
+        @media(max-width: 360px) {
+          font-size: 38px !important;
+        }
+        @media(max-width: 320px){
+          font-size: 34px !important;
+        }
+      }
+      .promo{
+        font-size: 18px;
+      }
+
+      .promo-code{
+        color: #fff;
+        font-size: 40px;
+        background-color: $bgRed;
+        margin: 0 60px !important;
+        @media (max-width: 420px){
+          font-size: 34px !important;
+        }
+        @media (max-width: 384px){
+          font-size: 32px !important;
+        }
+        @media (max-width: 360px){
+          font-size: 30px !important;
+        }
+        @media(max-width: 320px){
+          font-size: 28px !important;
+        }
+      }
+      .valid-date{
+        font-size: 18px;
+        margin-bottom: 0 !important;
+      }
+    }
+  }
+
+
+  .section-2 {
+    .description {
+      margin: 0 30px;
+      @media(max-width: 420px){
+        margin: 0 10px;
+      }
+      b{
+        color: $bgRed;
+      }
+    }
+  }
+
+  .section-3 {
+    .sale-btn {
+      padding: 5px 30px !important;
+    }
+  }
+
+}
+
+
+.section-4 {
+  .title{
+    h2{
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 30px;
+      letter-spacing: 1px;
+    }
+  }
+  .gallery {
+    p{
+      font-size: 14px;
+    }
+  }
+}
+
+.section-5 {
+  .title{
+    h2{
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 30px;
+      letter-spacing: 1px;
+    }
+  }
+  .category{
+    .inner-category{
+      @media(max-width: 420px){
+        margin: 0 30px !important;
+      }
+      .brand{
+        display: block;
+        background-color: #f6f6f6 !important;
+        font-size: 14px;
+        font-weight: 600;
+        @media(max-width: 420px){
+          margin: 0 30px !important;
+        }
+        p{
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+
+
+.section-6 {
+  .title{
+    h2{
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 30px;
+      letter-spacing: 1px;
+    }
+  }
+  .category{
+      p{
+        background: #2f3439;
+        padding: 10px 0 !important;
+        border: 1px solid #2f3439;
+        a{
+          color: $textWhite;
+        }
+      }
+  }
+}
+
+.section-7 {
+  .title{
+    h2{
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 30px;
+      letter-spacing: 1px;
+    }
+  }
+
+  .logo-section{
+    .logo-image{
+      width: 60px;
+      height: auto;
+    }
+  }
+
+}
+
+
+
+.section-8{
+  .desc{
+    @media(max-width: 420px){
+      margin: 0 35px;
+    }
+    h2{
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 30px;
+      letter-spacing: 1px;
+      padding-bottom: 5px !important;
+    }
+    .show-for-small{
+      display: none;
+    }
+    .hr{
+      width: 25% !important;
+      margin-right: 200px;
+      border: 1px solid $bgRed !important;
+      border-bottom: 2px solid $bgRed;
+      @media(max-width: 420px){
+        margin-left: 135px !important;
+      }
+      @media(max-width: 375px){
+        margin-left: 130px !important;
+      }
+      @media(max-width: 360px){
+        margin-left: 125px !important;
+      }
+      @media(max-width: 320px){
+        margin-left: 110px !important;
+      }
+    }
+    p{
+      line-height: 24px;
+      font-size: 14px;
+    }
+    .click-here{
+        letter-spacing: 1px;
+        font-size: 11px !important;
+        font-weight: 700;
+        @media(max-width: 420px){
+          text-align: center !important;
+        }
+
+      a{
+        color: $bgRed !important;
+      }
+    }
+  }
+
+  .special-sale {
+    background-image: url("https://www.pennyblacktemplates.com/demo/pbt/sale/r-img/800x480.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    h2{
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 34px;
+      letter-spacing: 1px;
+      color: $textWhite;
+      @media(max-width: 420px){
+        font-size: 16px;
+      }
+    }
+
+  }
+}
+
+.section-9 {
+  .policy {
+    .desc {
+      background: $textWhite;
+      @media(max-width: 420px){
+        margin: 0 30px;
+      }
+      .second {
+        height: 76px;
+      }
+      h4{
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: 1px;
+        padding: 0 10px !important;
+      }
+      p{
+        font-size: 14px;
+        line-height: 24px;
+        padding: 0 5px !important;
+        .website{
+          color: $bgRed;
+        }
+      }
+      .payment{
+        padding-bottom: 4px !important;
+      }
+      .img-pad{
+        margin-bottom: 20px;
+        @media(max-width: 414px){
+          margin-bottom: 0 !important;
+        }
+      }
+      .pad {
+        padding-bottom: 22px !important;
+      }
+    }
+  }
+}
+
+.condition{
+  font-size: 14px;
+  line-height: 24px;
+  @media (max-width: 420px){
+    font-size: 12px;
+  }
+  @media(max-width: 360px){
+    font-size: 11px;
+  }
+  a{
+    color: $textColor !important;
+  }
+}
+
+.develop{
+  font-size: 14px;
+  .company-name{
+    color: $bgRed;
+  }
+}
+
+.f-hr-sec{
+  padding-right: 0!important;
+  padding-left: 0!important;
+  .f-hr{
+    border-bottom: 1px solid #D6D6D6;
+  }
+}
+
+
+
+
